@@ -1,0 +1,131 @@
+body{
+padding:0px;
+margin:0px;
+}
+
+
+#header{
+	height:75px;
+	background-color: #006fc3;
+
+}
+#bar{
+	margin:0px auto;
+	width:1400px;
+	
+
+}
+#lefthead{
+	float:left;
+	width:330px;
+
+}
+#header ul{
+	list-style-type: none;
+}
+#header ul li{
+
+	float:left;
+}
+#header ul li a{
+	color:black;
+	display: block;
+	padding:5px;
+	text-decoration:none;
+	
+}
+#million{
+
+	padding:20px 0px;
+	 color:white;
+	 font-weight:bold;
+	 width:900px;
+	 float:left;
+	margin:28px 0px;
+	 width:550px;
+	padding:0px;
+
+	 
+}
+
+#righthead{
+	float:right;
+	padding:6px 5px;
+}
+
+button{
+
+	height: 33px;
+	width:111px;
+	border: black 1px solid;
+	background-color: #f5f5f5;
+	color: #427900;
+}
+
+#navbar{
+	height:120px;
+	background-color:#f7f8fa;
+
+}
+#navigationbar> ul{
+	list-style-type: none;
+}
+#navigationbar > ul >li{
+
+	float:left;
+}
+#navigationbar >ul> li> a{
+	color:black;
+	display: block;
+	padding:5px;
+	text-decoration:none;
+	
+}
+#container{
+	margin:	0px auto;
+}
+ #logobar{
+	float:left;
+}
+#navigationbar{
+float:right;
+margin:30px 0px;
+}
+
+#navigationbar >ul >li> a:hover {
+	background-color:#006fc3;
+	border:solid 1px #006fc3 ;
+	border-radius: 20px;
+
+}
+
+#navigationbar > ul >li > ul{
+	width:200px;
+	background-color: white;
+	position:absolute;
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+	display: none;
+
+	
+}
+#navigationbar > ul > li:hover >ul{
+	display:block;
+}
+#navigationbar > ul > li> ul > li{}
+#navigationbar > ul >li > ul >li > a{
+	color:black;
+	display: block;
+	text-decoration:none;
+	padding:10px 0px;
+}
+
+#navigationbar > ul >li > ul >li > a:hover{
+background-color: #006fc3;
+}
+
+
+#background{
+	background-image: url('bg.png');
+}
